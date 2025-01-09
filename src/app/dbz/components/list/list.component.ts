@@ -8,7 +8,7 @@ import { OutletContext } from '@angular/router';
   styleUrl: './list.component.css'
 })
 export class ListComponent {
-  @Input()
+@Input()
   public characterList: Character[] = [{
     name:'Trunk',
     power: 10
